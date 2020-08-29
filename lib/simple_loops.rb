@@ -30,6 +30,7 @@ def return_string_array(array)
     new_array = [array[x].to_s]
     x += 1 
   end 
+  return new_array
 end
 
 #tests
